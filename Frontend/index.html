@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>เว็บไซต์ทำนายยี่ห้อรถยนต์จากภาพรถยนต์</title>
+</head>
+<body>
+    <div class="container">
+        <h2>ทำนายยี่ห้อของรูปภาพรถยนต์</h2>
+        <input type="file" accept="image/*" onchange="handleClick(this)">
+        <div class="result-container">
+            <h3>ผลลัพธ์:</h3>
+            <div id="result"></div>
+        </div>
+        <div class="image-container">
+            <img id="previewImage" src="" alt="Preview Image">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
